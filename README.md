@@ -1,13 +1,26 @@
-# DDoS Simülasyon Aracı
+# PoyrazYare DDoS Simülasyon Aracı
 
-Bu araç, belirli IP adreslerine yönelik UDP veya TCP tabanlı DDoS saldırılarını simüle etmek için kullanılmaktadır. Lütfen sadece etik amaçlarla ve izinli olduğunuz sistemlerde kullanın.
+PoyrazYare, basit bir DDoS simülasyon aracı olup, UDP ve TCP protokolleri ile hedef IP adreslerine saldırı gerçekleştirmek için tasarlanmıştır. Bu araç, öğrenme ve test amaçlı olarak kullanılmalıdır. Herhangi bir yasa dışı etkinlikte kullanılmamalıdır.
+
+## Özellikler
+
+- UDP ve TCP protokolleri ile saldırı yapma
+- Hedef IP adresi ve port belirleme
+- Belirli bir süre boyunca saldırı yapma
+- Saldırı hızını ayarlama
+- Gönderilecek veri yükünü özelleştirme
+- Başarı ve hata oranlarını raporlama
+- Saldırı sonuçlarını dosyaya kaydetme
 
 ## Gereksinimler
 
-Python 3.x sürümü gereklidir. Aşağıdaki kütüphaneleri yüklemek için `requirements.txt` dosyasını kullanabilirsiniz.
+Python 3.x ve aşağıdaki kütüphaneler:
 
-## Kullanım
+- numpy
+- requests
 
-1. Gerekli kütüphaneleri yükleyin:
+## Kurulum
+
+1. **Gereksinimleri kontrol edin ve yükleyin:**
    ```bash
-   pip install -r requirements.txt
+   python -m pip install numpy requests
