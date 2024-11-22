@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Düzenleyici</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- PDF.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <!-- jsPDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <h1>PDF Düzenleyici</h1>
+    <input type="file" id="pdf-upload" accept="application/pdf">
+    <canvas id="pdf-canvas"></canvas>
+    
+    <div class="controls">
+        <button id="add-text">Metin Ekle</button>
+        <button id="draw-shape">Şekil Çiz</button>
+        <button id="save-pdf">PDF'yi Kaydet</button>
+    </div>
+
+ <script type="modül">
+pdfjsDist'i ' https://cdn.jsdelivr.net/npm/pdfjs-dist@4.8.69/+esm ' adresinden içe aktar
+</script>
+</body>
+</html>
